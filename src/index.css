@@ -1,13 +1,172 @@
 body {
   margin: 0;
+ 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    background-color: #020917;
+  color: #fff;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+ul{list-style: none;}
+li{list-style: none;}
+
+
+body.light-theme {
+  background-color: #17559386;
+  color: #1e293b;
+}
+
+/* Navbar */
+.navsec {
+  background-color: #020917;
+  color: #637d8c;
+  transition: 0.3s;
+   list-style: none;
+}
+
+body.light-theme .navsec {
+  background-color:rgb(210, 207, 201);
+  color: #1e293b;
+   list-style: none;
+}
+body.light-theme .landingscreen{
+  background:rgb(210, 207, 201);
+}
+
+body.light-theme .namesec h2{
+  color: #020917 !important;
+}
+/* body.light-theme .namesec h1{
+  color:rgb(101,281,33);
+} */
+/* Links inside navbar */
+.nav-links li a {
+  color: #6d8a93;
+  transition: 0.3s;
+ 
+}
+
+body.light-theme .nav-links li a {
+  color: #1e293b;
+}
+
+body.light-theme .head-container-btn{
+  color: white;
+  background: #000;
+}
+
+
+body.light-theme .loader p{
+  color: #49434396 !important;
+}
+/* Project section cards */
+body.light-theme .project-card {
+  background-color: #986767;
+  border-color: #e2e8f0;
+  color: #1e293b;
+}
+
+body.light-theme .project-card:hover {
+  border-color: #f87171;
+}
+body.light-theme .headr-container h1 {
+background-color: #000;
+}
+body.light-theme .footer-section{
+  background: rgb(210, 207, 201);;
+}
+body.light-theme .footer-section p{
+  color: #000;
+  font-weight: 600;
+}
+body.light-theme .projects-section{
+  background:rgb(210,207,201) !important;
+}
+body.light-theme .projects-section h1{
+  color: #000 !important;
+}
+
+body.light-theme .projects-section p{
+  color: #5a5656e6 !important;
+  font-weight: 400;
+  
+}
+body.light-theme .project-card{
+  background: #000000d4;
+  color: #000;
+}
+body.light-theme .project-card p{
+  color: white;
+}
+body.light-theme .Skillbody{
+  background:rgb(210, 207, 201);
+}
+body.light-theme .Skillbody h1{
+  color: #000 !important;
+}
+body.light-theme .Skillbody p{
+  color: #2d2d2dc5;
+}
+body.light-theme .learningsec{
+  background:rgb(210, 207, 201);
+  margin-top: -34px;
+  margin-left: -10px;
+}
+body.light-theme .connect_head{
+  background:rgb(210, 207, 201);
+  margin-top:50px;padding-top: 20px;
+ 
+}
+
+body.light-theme .connect-text p{
+  color: #0d1012;
+}
+
+body.light-theme .connect-text h3{
+  color: #c42d2d;
+}
+
+body.light-theme .gettouch-title {
+  color: #0d1012;
+}
+
+body.light-theme .connect_head p {
+  color: #424242b9;
+  
+
+}
+body.light-theme .learningsec {
+  
+    background:none;
+    margin-top: 100px;
+  
+}
+body.light-theme.namesec h1{
+  background: linear-gradient(to right, #151313 0%, #0f0f0e 100%) !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;}
+
+  body.light-theme .nav-name {
+    color: rgb(67, 44, 44);
+
+  }
+
+/* Page sections */
+body.light-theme .projects-section,
+body.light-theme.landingscreen
+body.light-theme .skills-section,
+body.light-theme .home-section {
+  background-color: #dddfe2;
+  color: #1e293b;
 }

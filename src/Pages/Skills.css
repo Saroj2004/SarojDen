@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  padding-top: 0px; /* same as navbar height */
+}
+
+.Skillbody {
+  margin-top: 80px; /* same as navbar height */
+  padding: 20px;
+    height: 110vh;
+  color: white;
+  background-color: #010a1ca4 /* optional for testing */
+
+ 
+}
+
+.skills-page {
+  position: relative;
+
+   border-bottom: 1px solid rgba(128, 128, 128, 0.374);
+  
+}
+
+.Skillbody h1{
+    
+      background: linear-gradient(to right, #D77474 0%, #CFBFA5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+    margin-top:80px;
+    padding: 10px;
+    font-size:50px;
+    font-family: 'poppins',sans-serif;
+    
+
+}
+.Skillbody p{
+    color:#94A3B8;
+   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 23px;
+font-weight: 600;
+
+padding-top:14px ;
+line-height: 30px;
+text-align: center;
+
+
+
+
+}
+
+.skillcardssec {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+ margin-top: -400px;
+
+  padding: 0 10px;
+}
+
+.skillcard {
+  background: #02091A;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  width: 350px;
+  padding: 25px 30px;
+
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05),
+              0 0 25px rgba(0, 0, 0, 0.4);  /* subtle layered shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillcard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.167),
+              0 0 35px rgba(0, 0, 0, 0.6); 
+
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.card-icon {
+  color: #f87171;
+  background: rgba(248,113,113,0.1);
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  
+   width: 45px;
+  height: 45px;
+}
+
+.skillcard h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+.skillcard:hover{
+  color: #D77474;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tags span {
+  background: #1f2937;
+  color: #cbd5e1;
+  padding: 8px 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.tags span:hover {
+  background:#EA7676;
+  color: aliceblue;
+}
+
+
+@media screen and  (max-width: 768px) {
+  .Skillbody h1 {
+    font-size: 36px;
+  }
+  .Skillbody p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .skillcardssec {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -80px;
+
+   
+
+    padding: 0 1px;
+    
+  }
+  .skillcard {
+    width: 90vw;
+    max-width: 380px;
+    
+    
+  }
+  .learningsec{
+    margin-top: 110px;
+    height: 200px;
+    background: #000;
+    
+  
+
+  }
+ 
+ 
+ 
+ 
+  
+}
+/* @media (max-width: 1024px) {
+  .skillcardssec {
+    gap: 25px;
+  }
+  .skillcard {
+    width: 320px;
+  }
+} */
+
+  
+  
+
+
+
+.learningsec{
+  background:#010A1C;
+  width: 100vw;
+  height:50vh;
+  margin-top: 150px;
+
+  
+  border-bottom: 1px solid rgba(128, 128, 128, 0.368);
+
+
+}
+
+.learningcard {
+  background: #15111F;
+  margin: 50px auto 0 auto; /* centers the card */
+  width: 60%;
+ 
+  padding: 20px 30px;
+  border: 1px solid #ea767638;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 50px;
+}
+
+.learningcard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.learningcard h3 {
+  color: #D77474;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.learningcard p {
+  color: #94A3B8;
+  text-align: center;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 480px) {
+  .Skillbody h1 {
+    font-size: 28px;
+  }
+  .Skillbody p {
+    font-size: 16px;
+  }
+  .skillcard {
+    padding: 20px;
+  }
+  .learningcard {
+    width: 90%;
+    padding: 15px;
+    height: 290px;
+    
+    
+  }
+  .learningcard p{
+   width: 100%;
+  }
+  
+}
+

@@ -1,0 +1,277 @@
+.connect-sec {
+  color: white;
+}
+
+.connect_head {
+  margin-top: 150px;
+  text-align: center;
+  width: 100%;
+  height: 130vh;
+}
+
+.connect_head h1 {
+  background: linear-gradient(to right, #D77474 0%, #CFBFA5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  justify-content: center;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 80px;
+  padding: 10px;
+  font-size: 52px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.connect_head p {
+  color: #94A3B8;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 14px;
+  line-height: 31px;
+
+  text-align: center;
+}
+
+
+.connect_gettouch_context {
+  margin-top: 70px;
+  margin-left: 200px; /* adjust this for how left you want it */
+  text-align: left; /* align text properly */
+}
+
+.gettouch-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.chat-icon {
+  width: 26px;
+  height: 26px;
+  stroke-width: 1.5;
+  color: rgb(203, 88, 88);
+}
+
+.connect_gettouch_context p {
+  color: #94A3B8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  margin-top: 6px;
+  text-align: left;
+}
+.connect-email {
+  background: none;
+  margin-top: 2%;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid rgba(59, 59, 59, 0.817);
+  width: 500px;
+  height: 120px;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.connect-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between icon and text */
+}
+
+.connect-bg1 {
+  background-color: #1a1a1a;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.connect-icon {
+  color: #d77474;
+}
+
+.connect-text h3 {
+  margin: 1px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.connect-text p {
+  margin: -5px 0;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+
+
+.connect_leftside {
+  display: flex;
+  gap: 40px; /* space between left & right */
+  flex-wrap: wrap; /* ensures mobile responsiveness */
+}
+
+.connect_gettouch_context {
+  flex: 1;
+  min-width: 300px;
+}
+
+.connect_form {
+  width: 450px;
+  background-color: #020817;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-right: 150px; /* pushes it to the right */
+  margin-top: 5%;
+  border: 1px solid rgba(128, 128, 128, 0.404);
+}
+
+.connect_form h3 {
+  display: flex;
+  align-items: left;
+  font-family: 'poppins',sans-serif;
+  gap: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.connect_form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.connect_form label {
+  font-weight: 500;
+  text-align: left;
+}
+input:focus,
+textarea:focus {
+  border-color: #8c88db;
+  outline: none; 
+  box-shadow: 0 0 0 2px #94A3B8; /* glow */
+}
+
+.connect_form input,
+.connect_form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(128, 128, 128, 0.404);
+  border-radius: 8px;
+  font-size:smaller;
+
+  resize: vertical;
+  background:#020917;
+  font-family: 'poppins',sans-serif;
+  color: #94A3B8;
+
+}
+
+.connect_form textarea {
+  min-height: 120px;
+  color: #94A3B8;
+ 
+}
+
+
+.connect_form button {
+  background-color: #c44343;
+  color: #fff;
+  font-size: medium;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.connect_form button:hover {
+  background-color: #ca3838b6;
+}
+
+
+/* ---------- Responsive Fix for Mobile ---------- */
+@media (max-width: 768px) {
+  .connect_head {
+    height: auto; /* remove fixed height */
+    margin-top: 60px;
+    padding: 20px;
+  }
+  .connect_head h1{
+    font-size: 48px;
+  }
+  .connect_head p{
+    font-size: 13px;
+  }
+
+  .connect_leftside {
+    flex-direction: column; /* stack vertically */
+    align-items: center; /* center both sections */
+    justify-content: center;
+    gap: 40px;
+  }
+  
+
+  .connect_gettouch_context {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .connect_gettouch_context p {
+    text-align: center;
+    font-size: 10px;
+    padding-bottom: 10px;
+  }
+  
+
+  .connect-email {
+    width: 98%; /* responsive box width */
+    margin: 10px auto;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .connect_form {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .connect_form form {
+    width: 100%;
+  }
+
+  .connect_form h3 {
+    text-align: center;
+    justify-content: center;
+  }
+  .connect-bg1{
+    margin-left:2px;
+  }
+  .connect-text p{
+    font-size: 14px;
+  }
+  .connect-icon{
+   
+  }
+  .Toastify__toast-container {
+    width: 100%;
+    /*smallerwidthonmobile*/left: 30% !important;
+    /*centerithorizontally*/transform: translateX(50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+}

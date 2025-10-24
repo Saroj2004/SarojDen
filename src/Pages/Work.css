@@ -1,0 +1,155 @@
+.projects-section{
+  background:#020917;
+  margin-top: 81px !important;
+  height: 100vh;
+}
+.projects-section h1{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'poppins',sans-serif;
+}
+.projects-section p {
+    color: #8a9fbcdd;
+    padding-top: 10px;
+    line-height: 250x;
+  
+ 
+    font-size: x-large;
+}
+/* Loader Container */
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+/* Spinner */
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgb(173, 64, 64); 
+  border-top-color: rgb(131, 44, 44);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 15px;
+}
+
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.projects-section{
+    padding: 20px;
+}
+.filter-buttons {
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+}
+
+.filter-buttons button {
+  background: transparent;
+  border: 1px solid rgba(189, 184, 179, 0.432);
+  color: rgb(125, 124, 117);
+  padding: 8px 14px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+    font-weight: 600;
+}
+
+.filter-buttons button:hover,
+.filter-buttons .active {
+  background: rgba(210, 87, 87, 0.888);
+  color: rgb(201, 190, 190);
+}
+
+.sort-dropdown {
+  margin-bottom: 30px;
+}
+
+.sort-dropdown select {
+  padding: 8px 12px;
+  border: 1px solid rgba(190, 184, 184, 0.598);
+  border-radius: 4px;
+  background: transparent;
+  color: rgba(163, 157, 157, 0.63);
+  cursor: pointer;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.project-card {
+  background: #020917;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease, border-color 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: rgb(171, 90, 92);
+  color: antiquewhite;
+
+
+}
+
+.project-card h3 {
+    color:#d07878;
+  margin-bottom: 10px;
+}
+
+
+
+.project-card p {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+.project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-footer .category {
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.project-footer a {
+  color: rgb(181, 118, 118);
+  transition: 0.3s;
+}
+
+.project-footer a:hover {
+  color: white;
+}
+@media screen and (max-width:600px){
+    .projects-section p{
+        font-size:20px;
+        font-size: x-small;
+    }
+    
+
+}
+
