@@ -5,7 +5,7 @@ import design from '../assets/design1.png'
 import deploy from '../assets/deploy.png'
 import contnious from '../assets/continuous.png'
 // import next1 from '../assets/next1.png'
-import Prfl from '../assets/Sarojdp.jpg'
+import prfl from '../assets/Sarojdp.jpg'
 import LinkD from '../assets/linkedin1.png'
 import git from '../assets/git.png'
 import mail from '../assets/email.png'
@@ -96,7 +96,7 @@ const Home = () => {
   <div className="profile-card">
     <h2>Saroj Medipakala</h2>
     <p>Full Stack Developer</p>
-    <img src={Prfl} alt="profile" />
+    <img src={prfl} alt="profile" />
   </div>
 </div>
 
